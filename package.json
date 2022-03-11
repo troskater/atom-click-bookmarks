@@ -15,5 +15,14 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "configSchema": {
+    "eventType": {
+      "title": "Toggle Event Type",
+      "description": "The type of click event used to toggle the bookmark.",
+      "type": "string",
+      "default": "left-click",
+      "enum": ["left-click","alt+left-click","middle-click"]
+    }
+  }
 }
