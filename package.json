@@ -1,7 +1,7 @@
 {
   "name": "click-bookmarks",
   "main": "./lib/click-bookmarks",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Adds ability to toggle line bookmarks in the gutter with a click.",
   "keywords": [
     "gutter",
@@ -22,7 +22,11 @@
       "description": "The type of click event used to toggle the bookmark.",
       "type": "string",
       "default": "left-click",
-      "enum": ["left-click","alt+left-click","middle-click"]
+      "enum": [
+        "left-click",
+        "alt+left-click",
+        "middle-click"
+      ]
     }
   }
 }
