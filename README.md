@@ -6,6 +6,8 @@ Adds ability to add line bookmarks to the gutter with a click.
 
 ### Installation
 
+Requires core [bookmarks](https://atom.io/packages/bookmarks) package to be installed.
+
 Enter `apm install click-bookmarks` or search for the package via `settings > install` within Atom.
 
 ### Usage
