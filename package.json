@@ -1,0 +1,16 @@
+{
+  "name": "click-bookmarks",
+  "main": "./lib/click-bookmarks",
+  "version": "0.1.0",
+  "description": "Adds ability to toggle line bookmarks in the gutter with a click.",
+  "keywords": [
+    "gutter", "bookmark", "mark", "line", "click"
+  ],
+  "repository": "https://github.com/troskater/atom-click-bookmarks",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
