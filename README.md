@@ -13,7 +13,3 @@ Enter `apm install click-bookmarks` or search for the package via `settings > in
 ### Usage
 
 Just click a line number to toggle the bookmark action.
-
-### Known Issues
-
-Clicking lines adjacent to a bookmark will remove it instead of adding to the new line.
