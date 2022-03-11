@@ -1,5 +1,17 @@
-# click-bookmarks package
+# Atom click-bookmarks package
 
 Adds ability to add line bookmarks to the gutter with a click.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![click-bookmarks-demo](https://user-images.githubusercontent.com/1816633/157813893-12dbcecc-27d9-4932-a381-2e1de4dd90d0.png)
+
+### Installation
+
+Enter `apm install click-bookmarks` or search for the package via `settings > install` within Atom.
+
+### Usage
+
+Just click a line number to toggle the bookmark action.
+
+### Known Issues
+
+Clicking lines adjacent to a bookmark will remove it instead of adding to the new line.
